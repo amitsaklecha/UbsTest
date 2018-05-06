@@ -1,3 +1,5 @@
+pkg com.ubs.opsit.interviews;
+
 public class BerlinClock {
  
     public String[] convertToBerlinTime(String time) {
