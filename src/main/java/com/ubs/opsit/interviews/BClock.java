@@ -1,8 +1,8 @@
 pkg com.ubs.opsit.interviews;
 
-public class BerlinClock {
+public class BClock {
  
-    public String[] convertToBerlinTime(String time) {
+    public String[] convertToBTime(String time) {
         int[] parts = Stream.of(time.split(":")).mapToInt(Integer::parseInt).toArray();
         return new String[] {
                 getSeconds(parts[2]),

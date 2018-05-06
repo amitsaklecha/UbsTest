@@ -6,9 +6,9 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BerlinClockTest {
+public class BClockTest {
 
-    BerlinClock berlinClock = new BerlinClock();
+    BClock berlinClock = new BClock();
 
     // Yellow lamp should blink on/off every two seconds
     @Test
